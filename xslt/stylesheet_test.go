@@ -2,11 +2,12 @@ package xslt
 
 import (
 	"fmt"
-	"github.com/jbowtie/gokogiri/xml"
 	"io/ioutil"
 	"os"
 	"path"
 	"testing"
+
+	"github.com/matislovas/gokogiri/xml"
 )
 
 // Simple naive test; primarily exists as a canary in case test helpers break
@@ -115,7 +116,7 @@ func TestXsltParameters(t *testing.T) {
 
 var genRun = 0
 
-//convenience function to fix up the paths before running a test
+// convenience function to fix up the paths before running a test
 func runGeneralXslTest(t *testing.T, xslFile string) bool {
 	//we change into the general directory to duplicate env of libxslt test run
 	// unparsed-entity-uri() in particular returns a result relative to the

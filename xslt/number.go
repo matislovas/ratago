@@ -2,10 +2,11 @@ package xslt
 
 import (
 	"fmt"
-	"github.com/jbowtie/gokogiri/xml"
 	"strconv"
 	"strings"
 	"unicode"
+
+	"github.com/matislovas/gokogiri/xml"
 )
 
 var numLetter = "- a b c d e f g h i j k l m n o p q r s t u v w x y z"
@@ -57,7 +58,7 @@ func (n RomanNumber) String() (out string) {
 	return out
 }
 
-//TODO: breaks after 701
+// TODO: breaks after 701
 func toAlphaIndex(n int) (out string) {
 	w := n
 	for w > 26 {

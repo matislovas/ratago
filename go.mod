@@ -1,5 +1,7 @@
-module github.com/jbowtie/ratago
+module github.com/matislovas/ratago
 
 go 1.14
 
-require github.com/jbowtie/gokogiri v0.0.0-20190301021639-37f655d3078f
+require (
+	github.com/matislovas/gokogiri v0.0.0-20240408115409-dfe95252f012
+)

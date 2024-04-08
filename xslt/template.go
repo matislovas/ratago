@@ -3,10 +3,11 @@ package xslt
 import (
 	"container/list"
 	"fmt"
-	"github.com/jbowtie/gokogiri/xml"
-	"github.com/jbowtie/gokogiri/xpath"
 	"strings"
 	"unicode/utf8"
+
+	"github.com/matislovas/gokogiri/xml"
+	"github.com/matislovas/gokogiri/xpath"
 )
 
 type CompiledStep interface {

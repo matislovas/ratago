@@ -4,11 +4,12 @@ import (
 	"container/list"
 	"errors"
 	"fmt"
-	"github.com/jbowtie/gokogiri/xml"
-	"github.com/jbowtie/gokogiri/xpath"
 	"path/filepath"
 	"strings"
 	"unsafe"
+
+	"github.com/matislovas/gokogiri/xml"
+	"github.com/matislovas/gokogiri/xpath"
 )
 
 // ExecutionContext is passed to XSLT instructions during processing.
