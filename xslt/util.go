@@ -1,8 +1,9 @@
 package xslt
 
 import (
-	"github.com/jbowtie/gokogiri/xml"
 	"io/ioutil"
+
+	"github.com/matislovas/gokogiri/xml"
 )
 
 func xmlReadFile(filename string) (doc *xml.XmlDocument, err error) {

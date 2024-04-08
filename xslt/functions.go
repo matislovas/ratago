@@ -5,8 +5,8 @@ import (
 	"math"
 	"unsafe"
 
-	"github.com/jbowtie/gokogiri/xml"
-	"github.com/jbowtie/gokogiri/xpath"
+	"github.com/matislovas/gokogiri/xml"
+	"github.com/matislovas/gokogiri/xpath"
 )
 
 func (style *Stylesheet) RegisterXsltFunctions() {
@@ -76,14 +76,14 @@ func XsltSystemProperty(context xpath.VariableScope, args []interface{}) interfa
 	case "xsl:vendor":
 		return "John C Barstow"
 	case "xsl:vendor-url":
-		return "http://github.com/jbowtie/ratago"
+		return "http://github.com/matislovas/ratago"
 	default:
 		fmt.Println("EXEC system-property", args[0])
 	}
 	return nil
 }
 
-//Implementation of document() from XSLT spec
+// Implementation of document() from XSLT spec
 func XsltDocumentFn(context xpath.VariableScope, args []interface{}) interface{} {
 	if len(args) < 1 {
 		return nil

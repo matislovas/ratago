@@ -1,2 +1,10 @@
-github.com/jbowtie/gokogiri v0.0.0-20190301021639-37f655d3078f h1:6UIvzqlGM38lOpKP380Wbl0kUyyjutcc7KJUaDM/U4o=
-github.com/jbowtie/gokogiri v0.0.0-20190301021639-37f655d3078f/go.mod h1:C3R3VzPq+DAwilxue7DiV6F2QL1rrQX0L56GyI+sBxM=
+github.com/matislovas/gokogiri v0.0.0-20190301021639-37f655d3078f h1:6UIvzqlGM38lOpKP380Wbl0kUyyjutcc7KJUaDM/U4o=
+github.com/matislovas/gokogiri v0.0.0-20190301021639-37f655d3078f/go.mod h1:C3R3VzPq+DAwilxue7DiV6F2QL1rrQX0L56GyI+sBxM=
+github.com/matislovas/gokogiri v0.0.0-20240408080039-d9c8a564c70f h1:rVCEwgnLQn5qXsh/jALnNpQkFNfXUb6TfAm9ZfC5kqo=
+github.com/matislovas/gokogiri v0.0.0-20240408080039-d9c8a564c70f/go.mod h1:V4mjAkJBUkEtRD873/8vOfWp7KFijOOSD8ILvLwpbkQ=
+github.com/matislovas/gokogiri v0.0.0-20240408095150-c7cae94a2a83 h1:S316ICi3RfFq34m3hkgsyInytLHe/Buk4n5y1SdDkTs=
+github.com/matislovas/gokogiri v0.0.0-20240408095150-c7cae94a2a83/go.mod h1:V4mjAkJBUkEtRD873/8vOfWp7KFijOOSD8ILvLwpbkQ=
+github.com/matislovas/gokogiri v0.0.0-20240408100416-2b004fd6c731 h1:FTnmfDMvA23DtMSiI6J+wIoAG3kq3GaOd18VreH5MYA=
+github.com/matislovas/gokogiri v0.0.0-20240408100416-2b004fd6c731/go.mod h1:V4mjAkJBUkEtRD873/8vOfWp7KFijOOSD8ILvLwpbkQ=
+github.com/moovweb/gokogiri v0.0.0-20180713195410-a1a828153468 h1:s7OD9KAZ/X1BdIlXtaZUgROv/5OaFo1MlsSetrtxIis=
+github.com/moovweb/gokogiri v0.0.0-20180713195410-a1a828153468/go.mod h1:Oa/X457L/tmlvYXbM/iG0y+G1EERtHrpp7Y4fHJwsrk=

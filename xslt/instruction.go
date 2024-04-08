@@ -2,13 +2,13 @@ package xslt
 
 import (
 	"fmt"
-	"github.com/jbowtie/gokogiri/xml"
-	"github.com/jbowtie/gokogiri/xpath"
 	"strings"
+
+	"github.com/matislovas/gokogiri/xml"
+	"github.com/matislovas/gokogiri/xpath"
 )
 
 // Most xsl elements are compiled to an instruction.
-//
 type XsltInstruction struct {
 	Node     xml.Node
 	Name     string
